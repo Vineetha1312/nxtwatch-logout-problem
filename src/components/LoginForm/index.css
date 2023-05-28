@@ -1,0 +1,87 @@
+.login-bg-light {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-bg-dark {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #231f20;
+}
+.login-card-bg-light {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 16px 16px 16px 16px #909090;
+}
+.login-card-bg-dark {
+  color: #0f0f0f;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nxtwatch-logo {
+  height: 25px;
+  width: 100px;
+}
+.label-text {
+  color: #7e858e;
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.input-element {
+  height: 25px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #909090;
+  border-radius: 5px;
+  color: #64748b;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  outline:none;
+}
+.form-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.error-msg {
+  font-size: 10px;
+  color: #ff0000;
+  font-family: 'Roboto';
+}
+.checkbox-label {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #424242;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.checkbox-section {
+  display: flex;
+  flex-direction: row;
+}
+.login-button {
+  height: 30px;
+  width: 200px;
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius:5px;
+  margin-top:5px;
+}

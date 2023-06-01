@@ -1,0 +1,138 @@
+.video-item-container-dark {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+}
+.video-item-container-light {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+.video-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.video-title-dark {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  align-self: flex-start;
+  font-weight: 500px;
+}
+.video-title-light {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #64748b;
+
+  font-weight: 500px;
+}
+.video-text {
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 1000px;
+  font-family: 'Roboto';
+  margin: 2px;
+}
+.video-details-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.video-details {
+  display: flex;
+  flex-direction: row;
+}
+.video-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 1000px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.active-video-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 1000px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+.active-text {
+  color: #2563eb;
+}
+.horizontal-line {
+  color: #475569;
+  width: 100%;
+}
+.channel-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.oops-heading-light {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.oops-heading-dark {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .oops-heading-light {
+    font-size: 14px;
+  }
+  .oops-heading-dark {
+    font-size: 14px;
+  }
+}
+.oops-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.game-retry-button {
+  background-color: #4f46e5;
+  height: 30px;
+  width: 60px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.failure-section {
+  display: flex;
+  flex-direction: column;
+}

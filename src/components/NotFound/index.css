@@ -1,0 +1,52 @@
+.notfound-container-light {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.notfound-container-dark {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.notfound-heading-light {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.notfound-heading-dark {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+@media screen and(max-width:768px) {
+  .notfound-heading-dark {
+    font-size: 15px;
+  }
+  .notfound-heading-light {
+    font-size: 15px;
+  }
+  .notfound-text {
+    font-size: 10px;
+  }
+}
+.notfound-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.notfound-image {
+  height: 250px;
+  width: 300px;
+}
+@media screen and(max-width:768px) {
+  .notfound-image {
+    height: 150px;
+    width: 100px;
+  }
+}

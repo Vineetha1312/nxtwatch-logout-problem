@@ -1,2 +1,56 @@
+.home-bg-container-light {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 0px;
+}
+.home-bg-container-dark {
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  padding: 0px;
+}
 
+.home-and-prepaid-section {
+  display: flex;
+  flex-direction: row;
+}
 
+.prepaid-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nxtwatch-logo {
+  height: 25px;
+  width: 100px;
+}
+.prepaid-cross-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.prepaid-text {
+  color: #231f20;
+  font-size: 15px;
+  font-family: 'Roboto';
+  width: 300px;
+  margin-top: 20px;
+}
+.get-now-button {
+  height: 30px;
+  width: 100px;
+  border: 1px solid #212121;
+  background-color: transparent;
+  margin-top: 30px;
+}
+.home-items-section {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .menu-items-card {
+    display: none;
+  }
+}

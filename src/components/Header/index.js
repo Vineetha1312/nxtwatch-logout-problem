@@ -1,8 +1,9 @@
 import {HiMoon} from 'react-icons/hi'
 import {BiMenu} from 'react-icons/bi'
 import {FiLogIn, FiSun} from 'react-icons/fi'
-import {Cookies} from 'js-cookie'
-import {withRouter} from 'react-router-dom'
+import Cookies from 'js-cookie'
+import Popup from 'reactjs-popup'
+import {withRouter, Link} from 'react-router-dom'
 import './index.css'
 import NxtwatchContext from '../../context/NxtwatchContext'
 
@@ -34,19 +35,31 @@ const Header = props => {
           <HiMoon size={25} />
         )
         const nxtwatchLogo = isDarkTheme ? darkThemeLogo : lightThemeLogo
+        const logoutButton = isDarkTheme
+          ? 'logout-button-dark'
+          : 'logout-button-light'
+        const logoutBg = isDarkTheme
+          ? 'logout-container-dark'
+          : 'logout-container-light'
+        const logoutText = isDarkTheme
+          ? 'logout-text-dark'
+          : 'logout-text-light'
 
         return (
           <nav className={navBgContainer}>
-            <img
-              src={nxtwatchLogo}
-              alt="nxt watch logo"
-              className="nxtwatch-logo"
-            />
+            <Link to="/" className="link-type">
+              <img
+                src={nxtwatchLogo}
+                alt="website logo"
+                className="nxtwatch-logo"
+              />
+            </Link>
             <div className="nav-items">
               <button
                 type="button"
                 className="nav-theme-button"
                 onClick={onToggleTheme}
+                data-testid="theme"
               >
                 {themeIcon}
               </button>
@@ -60,20 +73,72 @@ const Header = props => {
               <button type="button" className="menu-icon-button">
                 <BiMenu size={25} />
               </button>
-              <button
-                type="button"
-                className="menu-icon-button"
-                onClick={onClickLogout}
+              <Popup
+                modal
+                trigger={
+                  <button type="button" className="menu-icon-button">
+                    <FiLogIn size={25} />
+                  </button>
+                }
+                className="popup-content"
               >
-                <FiLogIn size={25} />
-              </button>
-              <button
-                className="logout-button"
-                type="button"
-                onClick={onClickLogout}
+                {close => (
+                  <div className={logoutBg}>
+                    <p className={logoutText}>
+                      Are you sure, you want to logout?
+                    </p>
+                    <div className="logount-buttons">
+                      <button
+                        type="button"
+                        onClick={() => close()}
+                        className="cancel-button"
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        type="button"
+                        className="logout-btn"
+                        onClick={onClickLogout}
+                      >
+                        Confirm
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </Popup>
+              <Popup
+                modal
+                trigger={
+                  <button className={logoutButton} type="button">
+                    Logout
+                  </button>
+                }
+                className="popup-content"
               >
-                Logout
-              </button>
+                {close => (
+                  <div className={logoutBg}>
+                    <p className={logoutText}>
+                      Are you sure, you want to logout?
+                    </p>
+                    <div className="logount-buttons">
+                      <button
+                        type="button"
+                        onClick={() => close()}
+                        className="cancel-button"
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        type="button"
+                        className="logout-btn"
+                        onClick={onClickLogout}
+                      >
+                        Confirm
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </Popup>
             </div>
           </nav>
         )

@@ -1,0 +1,43 @@
+.trending-video-title-light {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.trending-video-title-dark {
+  color: #ffffff;
+}
+.trending-video-name-light {
+  color: #94a3b8;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .trending-video-title-light {
+    font-size: 15px;
+  }
+  .trending-video-name-light {
+    font-size: 10px;
+  }
+}
+.trending-video-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.link-item {
+  text-decoration: none;
+}
+.trending-thumbnail {
+  height: 150px;
+  width: 300px;
+}
+.trending-video-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.trending-video-details-section {
+  display: flex;
+  flex-direction: row;
+}

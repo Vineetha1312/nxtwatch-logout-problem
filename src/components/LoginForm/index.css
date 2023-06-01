@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  box-shadow: 16px 16px 16px 16px #909090;
+  box-shadow: 0px 4px 16px 0px #909090;
 }
 .login-card-bg-dark {
   color: #0f0f0f;
@@ -50,7 +50,7 @@
   font-size: 12px;
   font-family: 'Roboto';
   margin-bottom: 10px;
-  outline:none;
+  outline: none;
 }
 .form-container {
   margin-top: 30px;
@@ -82,6 +82,6 @@
   color: #ffffff;
   font-size: 12px;
   font-family: 'Roboto';
-  border-radius:5px;
-  margin-top:5px;
+  border-radius: 5px;
+  margin-top: 5px;
 }

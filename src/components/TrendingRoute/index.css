@@ -1,0 +1,133 @@
+.trending-bg-container-dark {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+}
+.trending-bg-container-light {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+.trending-top-section-dark {
+  background-color: #231f20;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 0px;
+  width: 100vw;
+}
+.trending-top-section-light {
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 0px;
+  width: 100vw;
+}
+.trending-logo-dark {
+  background-color: #181818;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.trending-logo-light {
+  background-color: #d7dfe9;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.trending-heading-light {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+.trending-heading-dark {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+@media screen and (max-width: 768px) {
+  .trending-heading-dark {
+    font-size: 15px;
+  }
+  .trending-heading-light {
+    font-size: 15px;
+  }
+}
+.trending-container-light {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+  padding: 20px;
+  margin-top: 0px;
+}
+.trending-container-dark {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+  padding: 20px;
+  margin-top: 0px;
+}
+.oops-heading-light {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.oops-heading-dark {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .oops-heading-light {
+    font-size: 14px;
+  }
+  .oops-heading-dark {
+    font-size: 14px;
+  }
+}
+.oops-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.game-retry-button {
+  background-color: #4f46e5;
+  height: 30px;
+  width: 60px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.trending-route {
+  display: flex;
+  flex-direction: column;
+}
+.trending-bottom-section {
+  display: flex;
+  flex-direction: row;
+}

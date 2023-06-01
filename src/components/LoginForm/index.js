@@ -5,8 +5,6 @@ import {Redirect} from 'react-router-dom'
 import './index.css'
 import NxtwatchContext from '../../context/NxtwatchContext'
 
-const darkLogo =
-  'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png'
 const lightLogo =
   'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png'
 
@@ -64,7 +62,6 @@ class LoginForm extends Component {
       <NxtwatchContext.Consumer>
         {value => {
           const {isDarkTheme} = value
-          const nxtwatchLogo = isDarkTheme ? darkLogo : lightLogo
           const loginCardBgClass = isDarkTheme
             ? 'login-card-bg-light'
             : 'login-card-bg-dark'
@@ -74,9 +71,9 @@ class LoginForm extends Component {
             <div className={loginBgClass}>
               <div className={loginCardBgClass}>
                 <img
-                  src={nxtwatchLogo}
+                  src={lightLogo}
                   alt="nxt watch logo"
-                  className="nxtwatch-logo"
+                  className="website logo"
                 />
                 <form className="form-container" onSubmit={this.submitForm}>
                   <label className="label-text" htmlFor="username">

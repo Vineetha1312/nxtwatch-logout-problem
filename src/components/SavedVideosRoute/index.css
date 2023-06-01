@@ -1,0 +1,152 @@
+.save-container-bg-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0f0f;
+}
+.save-container-bg-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.save-top-section-dark {
+  background-color: #231f20;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 0px;
+  width: 100vw;
+}
+.save-top-section-light {
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 0px;
+  width: 100vw;
+}
+.save-logo-dark {
+  background-color: #181818;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.save-logo-light {
+  background-color: #d7dfe9;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.save-heading-light {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+.save-heading-dark {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+@media screen and (max-width: 768px) {
+  .save-heading-dark {
+    font-size: 15px;
+  }
+  .save-heading-light {
+    font-size: 15px;
+  }
+}
+.save-container-light {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+  padding: 20px;
+  margin-top: 0px;
+  width: 100vw;
+}
+.save-container-dark {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+  padding: 20px;
+  margin-top: 0px;
+  width: 100vw;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.no-saved-videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+.no-saved-videos-img {
+  height: 200px;
+  width: 250px;
+  margin-top: 50px;
+}
+.no-saved-videos-heading-dark {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.no-saved-videos-heading-light {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.no-saved-videos-text-dark {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.no-saved-videos-text-light {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .no-saved-videos-heading-light {
+    font-size: 15px;
+  }
+  .no-saved-videos-heading-dark {
+    font-size: 15px;
+  }
+  .no-saved-videos-text-dark {
+    font-size: 10px;
+  }
+  .no-saved-videos-text-light {
+    font-size: 10px;
+  }
+}
+.saved-videos-route {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+.saved-videos-bottom {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,103 @@
+.gaming-heading-light {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+.gaming-bottom-section {
+  display: flex;
+  flex-direction: row;
+}
+.gaming-heading-dark {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+@media screen and (max-width: 768px) {
+  .gaming-heading-dark {
+    font-size: 15px;
+  }
+  .gaming-heading-light {
+    font-size: 15px;
+  }
+}
+.gaming-container-light {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f8fafc;
+  padding: 20px;
+  margin-top: 0px;
+}
+.gaming-container-dark {
+  display: flex;
+  flex-direction: row;
+  background-color: #0f0f0f;
+  padding: 20px;
+  margin-top: 0px;
+  flex-wrap: wrap;
+}
+.game-retry-button {
+  background-color: #4f46e5;
+  height: 30px;
+  width: 60px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.oops-heading-light {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.oops-heading-dark {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .oops-heading-light {
+    font-size: 14px;
+  }
+  .oops-heading-dark {
+    font-size: 14px;
+  }
+}
+.oops-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.failure-image {
+  height: 250px;
+  width: 150px;
+}
+@media screen and(max-width:768px) {
+  .failure-image {
+    height: 150px;
+    width: 100px;
+  }
+}
+.failure-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game-route {
+  display: flex;
+  flex-direction: column;
+}
